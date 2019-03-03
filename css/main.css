@@ -61,10 +61,6 @@ body {
   }
 }
 
-
-
-
-
 .header {
   position: fixed;
   top: 0;
@@ -74,6 +70,7 @@ body {
   padding-top: 4.5rem;
   padding-right: 4.5rem;
   padding-left: 4.5rem;
+  background-color:rgba(43, 46, 74, 0.85);
   }
 
   .header__logo {
@@ -98,6 +95,9 @@ body {
   text-transform: uppercase;
   color: white;
 }
+
+
+
 
 .intro {
   background-image: url('../img/Layer34.png');
@@ -236,8 +236,6 @@ body {
   display: inline-block;
  }
 
-
-
 .project {
   width: 100%;
   margin: 0 auto;
@@ -260,11 +258,6 @@ body {
   }
 }
 
-
-
-
-
-
 .project__item {
  width: 25%;
  height: 35rem;
@@ -276,9 +269,6 @@ body {
     margin-bottom: 20px;
   }
 }
-
-
-
 
 .project__item:first-child {
   background-image: url('../img/1.png');
@@ -467,7 +457,7 @@ background-color: red;
 }
 
 .slide__item:first-child {
-background-image: url('../img/Layer19.png');
+background-image: url('../img/girl.png');
 background-size: cover;
 background-position: center;
 }
@@ -477,7 +467,7 @@ background-color: #53354a;
 }
 
 .slide__tittle {
-  width: 65%;
+  width: 40rem;
   height: 16rem;
   font-family: 'Cardo';
   font-size: 3rem;
