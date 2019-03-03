@@ -70,7 +70,7 @@ body {
   padding-top: 4.5rem;
   padding-right: 4.5rem;
   padding-left: 4.5rem;
-  background-color:rgba(43, 46, 74, 0.85);
+  
   }
 
   .header__logo {
@@ -95,6 +95,9 @@ body {
   text-transform: uppercase;
   color: white;
 }
+
+
+
 
 .intro {
   background-image: url('../img/Layer34.png');
@@ -464,7 +467,7 @@ background-color: #53354a;
 }
 
 .slide__tittle {
-  width: 40rem;
+  width: 55%;
   height: 16rem;
   font-family: 'Cardo';
   font-size: 3rem;
