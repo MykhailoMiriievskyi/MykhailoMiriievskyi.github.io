@@ -170,7 +170,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;  
-  
   }
 
 
@@ -183,17 +182,17 @@ body {
   line-height: 1.09;
   color: #ffffff;
   text-align: center;
-  margin-top: 20rem;
+  margin-top: 16rem;
 }
 
 .intro__subtitle {
   font-family: 'Raleway', sans-serif;
   font-size: 2.2rem;
   margin-top: 4rem;
+  margin-bottom: 6rem;
   color: #ffffff;
   line-height: 1.5;
   text-align: center;
- 
 }
 
 .intro__btn {
