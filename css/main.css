@@ -170,7 +170,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;  
-  padding-top: 15rem;
+  
   }
 
 
@@ -183,6 +183,7 @@ body {
   line-height: 1.09;
   color: #ffffff;
   text-align: center;
+  margin-top: 25rem;
 }
 
 .intro__subtitle {
