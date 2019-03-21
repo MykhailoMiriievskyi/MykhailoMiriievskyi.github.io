@@ -19,6 +19,7 @@ $('.header__menu-open').click(() => {
 })
 
 
+
 const images = ['1.jpg', '11.jpg', '111.jpg'];
 let currentImage = 2;
 
