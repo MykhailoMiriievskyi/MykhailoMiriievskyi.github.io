@@ -10,13 +10,13 @@ html {
 
 @media (min-width: 768px) {
   html {
-    font-size: 4px;
+    font-size: 8px;
   }
 }
 
 @media (min-width: 1200px) {
   html {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
@@ -123,13 +123,13 @@ body {
 
 @media (max-width: 660px) {
   .fa {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 .header__adapt-nav {
   display: none;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   justify-content: center;
   overflow: hidden;
@@ -142,9 +142,6 @@ body {
     height: 0;
   }
 }
-
-
-
 
 .intro {
   background-image: url('../img/Layer34.png');
