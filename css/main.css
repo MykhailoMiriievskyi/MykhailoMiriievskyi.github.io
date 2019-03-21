@@ -172,8 +172,6 @@ body {
   text-align: center;  
   }
 
-
-
 .intro__title {
   font-family: 'Open Sans', sans-serif;
   font-size: 6.5rem;
@@ -482,19 +480,19 @@ body {
   flex-wrap: wrap;
 }
 
-.slide__item {
+.slide__foto,
+.slide__info {
   width: 50%;
   height: 50rem;
-  background-color: red;
 }
 
-.slide__item:first-child {
-  background-image: url('../img/girl.png');
+.slide__foto {
+  height: 50rem;
   background-size: cover;
   background-position: center;
 }
 
-.slide__item:nth-child(2) {
+.slide__info {
   background-color: #53354a;
 }
 
@@ -518,13 +516,30 @@ body {
   }
 
   .slide__subtittle {
-    
   font-family: 'Raleway';
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.62;
   color: #ffffff;
   text-transform: uppercase;
+  }
+
+  .slide__dots {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .slide__dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+
+  .slide__dot--isActive {
+    border: 2px solid red;
   }
 
   .download__inner {
@@ -607,7 +622,6 @@ body {
   .footer__content {
     display: flex;
     flex-wrap: wrap;
- 
    } 
   
    .footer {
@@ -618,7 +632,7 @@ body {
     width: 33.33%;
     text-align: center;
     font-family: 'Raleway';
-     }
+  }
 
 .footer__item-title {
   font-family: 'Raleway';
