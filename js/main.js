@@ -19,20 +19,20 @@ $('.header__menu-open').click(() => {
 })
 
 
-const images = ['1.png', '2.png', '3.png'];
+const images = ['1.jpg', '11.jpg', '111.jpg'];
 let currentImage = 2;
 
 for (let i = 0; i < images.length; i++) {
-  $('.slide__dots').append(`<div class="slide__dot" data-index="${i}"></div>`);
+  $('.slider__dots').append(`<div class="slider__dot" data-index="${i}"></div>`);
 }
 
 let setCurrentImage = function() {
-  $(`.slide__dot`).removeClass('slide__dot--isActive');
-  $(`.slide__dot[data-index="${currentImage}"]`).addClass('slide__dot--isActive');
-  $('.slide__foto').css('background-image', `url('../img/${images[currentImage]}')`);
+  $(`.slider__dot`).removeClass('slider__dot--isActive');
+  $(`.slider__dot[data-index="${currentImage}"]`).addClass('slider__dot--isActive');
+  $('.slide__foto').css('background-image', `url('../ActiveBox/img/${images[currentImage]}')`);
 }
 
-$('.slide__dot').click(function() {
+$('.slider__dot').click(function() {
   currentImage = $(this).attr('data-index');
   setCurrentImage();
 })

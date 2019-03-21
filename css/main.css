@@ -487,7 +487,7 @@ body {
 }
 
 .slide__foto {
-  height: 50rem;
+
   background-size: cover;
   background-position: center;
 }
@@ -524,12 +524,12 @@ body {
   text-transform: uppercase;
   }
 
-  .slide__dots {
+  .slider__dots {
     display: flex;
     margin-top: 30px;
   }
 
-  .slide__dot {
+  .slider__dot {
     width: 10px;
     height: 10px;
     margin: 0 10px;
@@ -538,7 +538,7 @@ body {
     border-radius: 50%;
   }
 
-  .slide__dot--isActive {
+  .slider__dot--isActive {
     border: 2px solid red;
   }
 
