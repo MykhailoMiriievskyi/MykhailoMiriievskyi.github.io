@@ -24,7 +24,7 @@ const images = ['intro.png', 'intro1.png', 'intro2.png'];
 let currentImage = 2;
 
 for (let i = 0; i < images.length; i++) {
-  $('.slider__dots').append(`<div class="slider__dot" data-index="${i}"></div>`);
+  $('.slide__dots').append(`<div class="slider__dot" data-index="${i}"></div>`);
 }
 
 let setCurrentImage = function() {

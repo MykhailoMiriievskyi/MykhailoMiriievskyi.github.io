@@ -524,7 +524,7 @@ body {
   text-transform: uppercase;
   }
 
-  .slider__dots {
+  .slide__dots {
     display: flex;
     margin-top: 30px;
   }
