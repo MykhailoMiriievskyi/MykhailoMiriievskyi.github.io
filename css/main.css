@@ -502,7 +502,7 @@ body {
   flex-wrap: wrap;
   justify-content: start;
   margin-left: 7rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .slide__tittle {
@@ -526,7 +526,9 @@ body {
 
   .slide__dots {
     display: flex;
+    justify-content: center;
     margin-top: 30px;
+    
   }
 
   .slider__dot {
