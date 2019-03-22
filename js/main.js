@@ -30,7 +30,7 @@ for (let i = 0; i < images.length; i++) {
 let setCurrentImage = function() {
   $(`.slider__dot`).removeClass('slider__dot--isActive');
   $(`.slider__dot[data-index="${currentImage}"]`).addClass('slider__dot--isActive');
-  $('.slide__foto').css('background-image', `url('../ActiveBox/img/${images[currentImage]}')`);
+  $('.slide__foto').css('background-image', `url('./img/${images[currentImage]}')`);
 }
 
 $('.slider__dot').click(function() {
