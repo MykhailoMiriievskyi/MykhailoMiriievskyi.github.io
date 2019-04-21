@@ -20,7 +20,7 @@ $('.header__menu-open').click(() => {
 
 
 
-const images = ['1.jpg', '11.jpg', '111.jpg'];
+const images = ['photoshop.jpg', 'html.jpg', 'bootstrap.jpg'];
 let currentImage = 2;
 
 for (let i = 0; i < images.length; i++) {
